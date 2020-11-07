@@ -6,8 +6,9 @@
 //
 
 import Foundation
-
-var a = [6, 11, 3, 9, 8, 12]
-QuickSort.sort(&a, n: 6)
-print(a)
+ 
+let a: [Int] = [1, 2, 5]
+let b: [Int] = [2, 4]
+ 
+print(FairCandySwap().solution(a, B: b))
 

@@ -15,8 +15,38 @@ import Foundation
 
 class SalaryAverage {
     class func solution(_ salary: [Int]) -> Double {
+        // 1. 排序
+        var a = salary
+        sort(&a, n: a.count)
         
+        // 2. 计算平均
+        var total: Int = 0
+        for i in 1..<a.count - 1 {
+            total += a[i]
+        }
         
-        return 0.0
+        return Double(total) / Double((a.count - 2))
+    }
+    
+    class func sort(_ a: inout [Int], n: Int) {
+        guard n > 1 else {
+            return
+        }
+        
+        for i in 0..<n {
+            var flag: Bool = false
+            for j in 0..<n-i-1 {
+                if a[j] > a[j + 1] {
+                    let temp = a[j]
+                    a[j] = a[j + 1]
+                    a[j + 1] = temp
+                    flag = true
+                }
+            }
+            
+            if !flag {
+                break
+            }
+        }
     }
 }
