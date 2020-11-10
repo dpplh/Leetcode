@@ -6,9 +6,9 @@
 //
 
 import Foundation
+
+let words = ["apple","app"]
+let order = "abcdefghijklmnopqrstuvwxyz"
  
-let a: [Int] = [1, 2, 5]
-let b: [Int] = [2, 4]
- 
-print(FairCandySwap().solution(a, B: b))
+print(AlienSort().isAlienSorted(words, order))
 
