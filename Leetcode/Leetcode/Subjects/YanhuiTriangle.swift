@@ -8,7 +8,8 @@
 import Foundation
 
 /*
- 杨辉三角
+ 119
+ 杨辉三角II
                 1
             1      1
         1      2       1

@@ -7,8 +7,7 @@
 
 import Foundation
 
-let words = ["apple","app"]
-let order = "abcdefghijklmnopqrstuvwxyz"
+let a = 21
  
-print(AlienSort().isAlienSorted(words, order))
+print(IsPowerOfThree().isPowerOfThree(a))
 
