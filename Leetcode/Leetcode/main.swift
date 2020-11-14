@@ -7,7 +7,6 @@
 
 import Foundation
 
-let a = 21
- 
-print(IsPowerOfThree().isPowerOfThree(a))
+print(MaxProfit().maxProfit([1,2]))
+
 

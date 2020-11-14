@@ -24,8 +24,8 @@ class InsertionSort {
             // 从第一个开始，与左边比较
             let value = a[i]
             
-            var index = i - 1
-            for j in (0...index).reversed() {
+            var index = i
+            for j in (0...index - 1).reversed() {
                 // 如果左边比右边大，赋值
                 if a[j] > value {
                     index = j
