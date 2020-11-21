@@ -7,6 +7,4 @@
 
 import Foundation
 
-print(MaxProfit().maxProfit([1,2]))
-
-
+print(RomanToInt().romanToInt("MCMXCIV"))
